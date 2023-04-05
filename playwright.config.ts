@@ -1,6 +1,6 @@
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test';
 export default defineConfig({
-  testMatch: ["pomtest/addToCart.test.ts"],
+  testMatch: ["myFixture/fixture.test.ts"],
   reporter: [["dot"], ["json",
 {
   outputFile: "jsonReports/jsonReport.json"

@@ -1,1 +1,1 @@
-{"__version__":1,"totalSize":937,"count":2,"data":{"example.spec.ts":[0,515],"login.test.ts":[0,422]}}
+{"__version__":1,"totalSize":9043,"count":9,"data":{"alert.test.ts":[0,929],"basicInteractions.test.ts":[0,1744],"calendar.test.ts":[0,942],"dropdown.test.ts":[0,1055],"example.spec.ts":[0,515],"frame.test.ts":[0,1052],"login.test.ts":[0,422],"uploadDownload.test.ts":[0,1147],"windows.test.ts":[0,1237]}}

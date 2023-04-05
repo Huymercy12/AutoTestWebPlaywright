@@ -19,7 +19,7 @@
         "testDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "pomtest/addToCart.test.ts"
+          "myFixture/fixture.test.ts"
         ],
         "timeout": 30000
       }
@@ -57,116 +57,45 @@
   },
   "suites": [
     {
-      "title": "pomtest\\addToCart.test.ts",
-      "file": "pomtest/addToCart.test.ts",
+      "title": "myFixture\\fixture.test.ts",
+      "file": "myFixture/fixture.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "page object model demo",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 8,
-          "column": 6,
-          "specs": [
+          "title": "fixture demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Register test 01",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 14,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 8962,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-31T09:13:55.499Z",
-                      "attachments": []
+                      "text": "\u001b[33m23\u001b[39m Huy\n"
                     }
                   ],
-                  "status": "expected"
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-04T03:43:08.168Z",
+                  "attachments": []
                 }
               ],
-              "id": "1c188a18f2ecab048a02-bda8946a0e7b9562e4c4",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 9,
-              "column": 9
-            },
-            {
-              "title": "Login test 02",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 6696,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "My Account\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-31T09:14:05.644Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1c188a18f2ecab048a02-423cd84988fead5abc45",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 22,
-              "column": 9
-            },
-            {
-              "title": "Add to cart",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 17519,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-31T09:14:12.344Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1c188a18f2ecab048a02-cd4ff43941f2d6b4cdbe",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 32,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "45bd6ecd8f45616f9a30-672aa813fd35415c9ae3",
+          "file": "myFixture/fixture.test.ts",
+          "line": 4,
+          "column": 5
         }
       ]
     }
