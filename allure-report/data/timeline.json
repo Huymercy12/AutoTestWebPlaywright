@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "huymercy",
+    "children" : [ {
+      "name" : "huymercy-5596-playwright-worker-0",
+      "children" : [ {
+        "name" : "Calendar moment",
+        "uid" : "ce757db7c0573043",
+        "parentUid" : "735df8a4c296eed12aba996b3cc42d87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1681718233647,
+          "stop" : 1681718242017,
+          "duration" : 8370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "735df8a4c296eed12aba996b3cc42d87"
+    }, {
+      "name" : "huymercy-3920-playwright-worker-0",
+      "children" : [ {
+        "name" : "Calendar moment",
+        "uid" : "2213b86268ec8afb",
+        "parentUid" : "70f7d90bc5b1be04eeb7816fed5ce52c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1681717361972,
+          "stop" : 1681717362041,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70f7d90bc5b1be04eeb7816fed5ce52c"
+    } ],
+    "uid" : "722aac01030b30deb8bd8357d09a82e5"
+  } ]
+}

@@ -12,14 +12,15 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright/test-results",
+        "outputDir": "c:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright/test-results",
         "repeatEach": 1,
         "retries": 0,
+        "id": "",
         "name": "",
-        "testDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
+        "testDir": "c:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "myFixture/fixture.test.ts"
+          "tests/calendar.test.ts"
         ],
         "timeout": 30000
       }
@@ -40,30 +41,38 @@
         {
           "open": "never"
         }
+      ],
+      [
+        "c:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "detail": true,
+          "outputFolder": "my-allure-results",
+          "suiteTitle": false
+        }
       ]
     ],
     "reportSlowTests": {
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\playwright.config.ts",
-    "rootDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
+    "configFile": "c:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\playwright.config.ts",
+    "rootDir": "c:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.31.2",
+    "version": "1.32.3",
     "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "myFixture\\fixture.test.ts",
-      "file": "myFixture/fixture.test.ts",
+      "title": "tests\\calendar.test.ts",
+      "file": "tests/calendar.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "fixture demo",
+          "title": "Calendar moment",
           "ok": true,
           "tags": [],
           "tests": [
@@ -71,31 +80,28 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
+              "projectId": "",
               "projectName": "",
               "results": [
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 14,
+                  "duration": 7089,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[33m23\u001b[39m Huy\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-04T03:43:08.168Z",
+                  "startTime": "2023-04-17T07:57:13.644Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "45bd6ecd8f45616f9a30-672aa813fd35415c9ae3",
-          "file": "myFixture/fixture.test.ts",
-          "line": 4,
-          "column": 5
+          "id": "68c95afee124c9066c67-08c566072511d3b90481",
+          "file": "tests/calendar.test.ts",
+          "line": 11,
+          "column": 6
         }
       ]
     }

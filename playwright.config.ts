@@ -1,12 +1,21 @@
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test';
 export default defineConfig({
-  testMatch: ["myFixture/fixture.test.ts"],
+  testMatch: ["tests/calendar.test.ts"],
   reporter: [["dot"], ["json",
 {
   outputFile: "jsonReports/jsonReport.json"
 }],["html",{
   open: "never"
-}]],
+}],
+[
+  "allure-playwright",
+  {
+    detail: true,
+    outputFolder: "my-allure-results",
+    suiteTitle: false,
+  },
+]
+],
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
