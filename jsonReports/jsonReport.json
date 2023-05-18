@@ -12,15 +12,15 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "c:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright/test-results",
+        "outputDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "c:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
+        "testDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/calendar.test.ts"
+          "tests/data.test.ts"
         ],
         "timeout": 30000
       }
@@ -43,7 +43,7 @@
         }
       ],
       [
-        "c:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\node_modules\\allure-playwright\\dist\\index.js",
+        "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\node_modules\\allure-playwright\\dist\\index.js",
         {
           "detail": true,
           "outputFolder": "my-allure-results",
@@ -55,8 +55,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "c:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\playwright.config.ts",
-    "rootDir": "c:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
+    "configFile": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\playwright.config.ts",
+    "rootDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -66,13 +66,13 @@
   },
   "suites": [
     {
-      "title": "tests\\calendar.test.ts",
-      "file": "tests/calendar.test.ts",
+      "title": "tests\\data.test.ts",
+      "file": "tests/data.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Calendar moment",
+          "title": "data test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -86,22 +86,32 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7089,
+                  "duration": 13760,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "huy1@gmail.com\n"
+                    },
+                    {
+                      "text": "huy2@gmail.com\n"
+                    },
+                    {
+                      "text": "huy3@gmail.com\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-17T07:57:13.644Z",
+                  "startTime": "2023-05-18T08:21:28.100Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "68c95afee124c9066c67-08c566072511d3b90481",
-          "file": "tests/calendar.test.ts",
-          "line": 11,
-          "column": 6
+          "id": "f27836d7ca55c8fa8120-c531e3d2d6f688cedb53",
+          "file": "tests/data.test.ts",
+          "line": 5,
+          "column": 5
         }
       ]
     }

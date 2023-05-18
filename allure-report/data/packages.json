@@ -3,13 +3,52 @@
   "name" : "packages",
   "children" : [ {
     "name" : "Calendar moment",
-    "uid" : "ce757db7c0573043",
+    "uid" : "675b43513a338ea1",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
       "start" : 1681718233647,
       "stop" : 1681718242017,
       "duration" : 8370
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Interactions inputs",
+    "uid" : "3daacc626754c987",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1683706388249,
+      "stop" : 1683706391996,
+      "duration" : 3747
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Sum",
+    "uid" : "4a20466664d63886",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1683706392000,
+      "stop" : 1683706394180,
+      "duration" : 2180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check box",
+    "uid" : "2033c0098809f7f0",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1683706394183,
+      "stop" : 1683706396141,
+      "duration" : 1958
     },
     "flaky" : false,
     "newFailed" : false,

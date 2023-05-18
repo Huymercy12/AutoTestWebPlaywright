@@ -11,10 +11,10 @@ test("Test Interactions inputs", async ({ page }) => {
     await messageInput.type("Hi HuyMercy");
     console.log("after entering text : " + await messageInput.inputValue());
 
+}
+)
 
-})
-
-test("Sum", async ({ page }) => {
+test("Sum", async ({ page }) =>{
     await page.goto("https://www.lambdatest.com/selenium-playground/simple-form-demo");
     const sum1input = page.locator("input#sum1");
     const sum2input = page.locator("input#sum2");
@@ -27,7 +27,7 @@ test("Sum", async ({ page }) => {
     await sum2input.type("" + sum2);
     await getValuebtn.click();
     const result = page.locator("#addmessage");
-    console.log(await result.textContent());
+    console.log("\n" + await result.textContent());
     let expectedResult = sum1 + sum2;
     expect(result).toHaveText("" + expectedResult);
 })

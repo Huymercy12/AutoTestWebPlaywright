@@ -1,6 +1,6 @@
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test';
 export default defineConfig({
-  testMatch: ["tests/calendar.test.ts"],
+  testMatch: ["tests/data.test.ts"],
   reporter: [["dot"], ["json",
 {
   outputFile: "jsonReports/jsonReport.json"

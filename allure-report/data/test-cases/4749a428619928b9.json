@@ -1,5 +1,5 @@
 {
-  "uid" : "2213b86268ec8afb",
+  "uid" : "4749a428619928b9",
   "name" : "Calendar moment",
   "fullName" : "tests/calendar.test.ts#Calendar moment",
   "historyId" : "a1a62424615bb7ab439b889ad7763b10",
@@ -29,10 +29,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "After Hooks",
       "time" : {
@@ -52,24 +52,24 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 1,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
-    "hasContent" : true,
+    "shouldDisplayMessage" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : true
+    "stepsCount" : 3,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -96,6 +96,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2213b86268ec8afb.json",
+  "source" : "4749a428619928b9.json",
   "parameterValues" : [ ]
 }

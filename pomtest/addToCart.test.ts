@@ -3,14 +3,14 @@ import RegisterPage from "../pom/registerPage";
 import LoginPage from "../pom/loginPage";
 import HomePage from "../pom/homePage";
 import SpecialPage from "../pom/specialPage";
-const email = "huy12121@gmail.com";
+const email = "huy55551@gmail.com";
 const password = "12345678";
 test.describe("page object model demo", async () => {
     test("Register test 01", async ({ page, baseURL }) => {
         const register = new RegisterPage(page);
         await page.goto(`${baseURL}route=account/register`);
-        await register.enterFirstName("Huy");
-        await register.enterLastName("Vu");
+        await register.enterFirstName("Huy1");
+        await register.enterLastName("Vu1");
         await register.enterEmail(email);
         await register.enterTelephone("1234567890");
         await register.enterPassword(password);

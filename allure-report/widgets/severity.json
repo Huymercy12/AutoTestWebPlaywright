@@ -1,10 +1,40 @@
 [ {
-  "uid" : "ce757db7c0573043",
+  "uid" : "675b43513a338ea1",
   "name" : "Calendar moment",
   "time" : {
     "start" : 1681718233647,
     "stop" : 1681718242017,
     "duration" : 8370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2033c0098809f7f0",
+  "name" : "Check box",
+  "time" : {
+    "start" : 1683706394183,
+    "stop" : 1683706396141,
+    "duration" : 1958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3daacc626754c987",
+  "name" : "Test Interactions inputs",
+  "time" : {
+    "start" : 1683706388249,
+    "stop" : 1683706391996,
+    "duration" : 3747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a20466664d63886",
+  "name" : "Sum",
+  "time" : {
+    "start" : 1683706392000,
+    "stop" : 1683706394180,
+    "duration" : 2180
   },
   "status" : "passed",
   "severity" : "normal"
