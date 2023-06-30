@@ -13,7 +13,11 @@ test("data test",async function runTests() {
   const worksheet = workbook.getWorksheet('user');
 
     const rowCount = worksheet.rowCount;
-  // Thực hiện các bài kiểm tra với dữ liệu từ tệp Excel
+  // Thực hiện các bài kiểm tra với dữ liệu từ tệp Excel , nếu như ko nhận method value() thì chuyển sang method text() để định dạng giá trị cell
+  // ở đây sử dụng dấu chấm ! == khẳng định giá trị ô đó không là null và undefined
+  // nếu không chắc chắn là không phải null và undefined thì ta có thể sử dụng toán tử ? để sử dụng
+  // cách đơn giản nhất đó là dùng if else để kiểm tra biến đó 
+  
   for (let i = 2; i <= rowCount; i++) {
     const username = worksheet.getCell(`A${i}`).text!.toString(); 
     console.log(username);

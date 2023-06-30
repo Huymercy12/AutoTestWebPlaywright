@@ -1,4 +1,15 @@
 {
-  "total" : 4,
-  "items" : [ ]
+  "total" : 7,
+  "items" : [ {
+    "uid" : "0d831603cea351102bc9ac102cf285e3",
+    "name" : "page object model demo",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
 }

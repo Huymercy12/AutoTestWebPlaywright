@@ -1,0 +1,183 @@
+{
+  "uid" : "2d413b5fae7c440e",
+  "name" : "Register test 01",
+  "fullName" : "pomtest/addToCartUsingFixture.test.ts#page object model demo Register test 01",
+  "historyId" : "cd2c50730bf1e174c5c25d764f5d8751",
+  "time" : {
+    "start" : 1684145489205,
+    "stop" : 1684145495273,
+    "duration" : 6068
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1684145489208,
+        "stop" : 1684145491276,
+        "duration" : 2068
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1684145490628,
+          "stop" : 1684145491275,
+          "duration" : 647
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://ecommerce-playground.lambdatest.io/index.php?route=account/register)",
+      "time" : {
+        "start" : 1684145491287,
+        "stop" : 1684145494891,
+        "duration" : 3604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1684145494936,
+        "stop" : 1684145495270,
+        "duration" : 334
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1684145495121,
+          "stop" : 1684145495264,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "subSuite",
+    "value" : "page object model demo"
+  }, {
+    "name" : "host",
+    "value" : "huymercy"
+  }, {
+    "name" : "thread",
+    "value" : "huymercy-864-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a42ad1060f2eeed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684145421776,
+        "stop" : 1684145429504,
+        "duration" : 7728
+      }
+    }, {
+      "uid" : "ab200c19c6c30450",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684145352690,
+        "stop" : 1684145359000,
+        "duration" : 6310
+      }
+    }, {
+      "uid" : "1441acd430d70a28",
+      "status" : "failed",
+      "statusDetails" : "ENOENT: no such file or directory, open 'information.xlsx'",
+      "time" : {
+        "start" : 1684144999556,
+        "stop" : 1684145007315,
+        "duration" : 7759
+      }
+    }, {
+      "uid" : "893d5fa8f6d82503",
+      "status" : "failed",
+      "statusDetails" : "ENOENT: no such file or directory, open 'information.xlsx'",
+      "time" : {
+        "start" : 1684144930191,
+        "stop" : 1684144936790,
+        "duration" : 6599
+      }
+    }, {
+      "uid" : "57fc6c1416aa188a",
+      "status" : "failed",
+      "statusDetails" : "ENOENT: no such file or directory, open 'information.xlsx'",
+      "time" : {
+        "start" : 1684143136964,
+        "stop" : 1684143145323,
+        "duration" : 8359
+      }
+    }, {
+      "uid" : "2038108bf8913a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683943734294,
+        "stop" : 1683943759559,
+        "duration" : 25265
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d413b5fae7c440e.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,7 @@
 {
   "config": {
+    "configFile": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\playwright.config.ts",
+    "rootDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -10,21 +12,6 @@
     "maxFailures": 0,
     "metadata": {},
     "preserveOutput": "always",
-    "projects": [
-      {
-        "outputDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "",
-        "name": "",
-        "testDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
-        "testIgnore": [],
-        "testMatch": [
-          "tests/data.test.ts"
-        ],
-        "timeout": 30000
-      }
-    ],
     "reporter": [
       [
         "dot",
@@ -55,63 +42,143 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\playwright.config.ts",
-    "rootDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
     "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCart.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.32.3",
+    "version": "1.34.3",
     "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\data.test.ts",
-      "file": "tests/data.test.ts",
+      "title": "pomtest\\addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "data test",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "page object model demo",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
+              "title": "Register test 01",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 13760,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
                     {
-                      "text": "huy1@gmail.com\n"
-                    },
-                    {
-                      "text": "huy2@gmail.com\n"
-                    },
-                    {
-                      "text": "huy3@gmail.com\n"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7573,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-12T02:57:28.515Z",
+                      "attachments": []
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-05-18T08:21:28.100Z",
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "1c188a18f2ecab048a02-bda8946a0e7b9562e4c4",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Login test 02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5948,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "My Account\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-12T02:57:38.823Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-423cd84988fead5abc45",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 22,
+              "column": 9
+            },
+            {
+              "title": "Add to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12659,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-12T02:57:44.786Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-cd4ff43941f2d6b4cdbe",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 32,
+              "column": 9
             }
-          ],
-          "id": "f27836d7ca55c8fa8120-c531e3d2d6f688cedb53",
-          "file": "tests/data.test.ts",
-          "line": 5,
-          "column": 5
+          ]
         }
       ]
     }

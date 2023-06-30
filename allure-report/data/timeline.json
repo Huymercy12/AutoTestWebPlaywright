@@ -4,23 +4,113 @@
   "children" : [ {
     "name" : "huymercy",
     "children" : [ {
-      "name" : "huymercy-7500-playwright-worker-0",
+      "name" : "huymercy-3924-playwright-worker-0",
       "children" : [ {
-        "name" : "Check box",
-        "uid" : "b16f79ec9347c6cd",
-        "parentUid" : "aa82b7c50d0650d1dc8399daffc095eb",
+        "name" : "Register test 01",
+        "uid" : "f5995ad602370d7c",
+        "parentUid" : "0457856f9812f1b3656eb0c54c3d0729",
         "status" : "passed",
         "time" : {
-          "start" : 1683706179968,
-          "stop" : 1683706181733,
-          "duration" : 1765
+          "start" : 1684986992489,
+          "stop" : 1684987003062,
+          "duration" : 10573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test 02",
+        "uid" : "f6d4963647d6c80d",
+        "parentUid" : "0457856f9812f1b3656eb0c54c3d0729",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684987003067,
+          "stop" : 1684987010152,
+          "duration" : 7085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to cart",
+        "uid" : "d85efb5ef2a158a8",
+        "parentUid" : "0457856f9812f1b3656eb0c54c3d0729",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684987010156,
+          "stop" : 1684987027579,
+          "duration" : 17423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0457856f9812f1b3656eb0c54c3d0729"
+    }, {
+      "name" : "huymercy-11780-playwright-worker-0",
+      "children" : [ {
+        "name" : "Sum",
+        "uid" : "5816278cc88e506f",
+        "parentUid" : "4542cb05d6b52fb9fe40dcf30c8c126d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683706392000,
+          "stop" : 1683706394180,
+          "duration" : 2180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check box",
+        "uid" : "cfce0b84e6179b54",
+        "parentUid" : "4542cb05d6b52fb9fe40dcf30c8c126d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683706394183,
+          "stop" : 1683706396141,
+          "duration" : 1958
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test Interactions inputs",
-        "uid" : "ebbe141a0dbeb1e3",
+        "uid" : "1db4a4d77d7675a8",
+        "parentUid" : "4542cb05d6b52fb9fe40dcf30c8c126d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683706388249,
+          "stop" : 1683706391996,
+          "duration" : 3747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4542cb05d6b52fb9fe40dcf30c8c126d"
+    }, {
+      "name" : "huymercy-6520-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "5eaed4ac35171c39",
+        "parentUid" : "b2b0622bf03ae015ceff3d8e84753a2b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684404616072,
+          "stop" : 1684404648301,
+          "duration" : 32229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2b0622bf03ae015ceff3d8e84753a2b"
+    }, {
+      "name" : "huymercy-7500-playwright-worker-0",
+      "children" : [ {
+        "name" : "Test Interactions inputs",
+        "uid" : "c910a79671914c05",
         "parentUid" : "aa82b7c50d0650d1dc8399daffc095eb",
         "status" : "passed",
         "time" : {
@@ -32,8 +122,21 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "Check box",
+        "uid" : "db3fb3208aecaf66",
+        "parentUid" : "aa82b7c50d0650d1dc8399daffc095eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683706179968,
+          "stop" : 1683706181733,
+          "duration" : 1765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "Sum",
-        "uid" : "8889b60f81e1654e",
+        "uid" : "1755aabef33c469c",
         "parentUid" : "aa82b7c50d0650d1dc8399daffc095eb",
         "status" : "passed",
         "time" : {
@@ -47,23 +150,109 @@
       } ],
       "uid" : "aa82b7c50d0650d1dc8399daffc095eb"
     }, {
+      "name" : "huymercy-1604-playwright-worker-0",
+      "children" : [ {
+        "name" : "Add to cart",
+        "uid" : "3938c8696c76d035",
+        "parentUid" : "9304b0a01c6e9ab1f1653747f8da9fe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683943766474,
+          "stop" : 1683943780619,
+          "duration" : 14145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register test 01",
+        "uid" : "2038108bf8913a66",
+        "parentUid" : "9304b0a01c6e9ab1f1653747f8da9fe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683943734294,
+          "stop" : 1683943759559,
+          "duration" : 25265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test 02",
+        "uid" : "51a28483a37d45cb",
+        "parentUid" : "9304b0a01c6e9ab1f1653747f8da9fe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683943759563,
+          "stop" : 1683943766471,
+          "duration" : 6908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9304b0a01c6e9ab1f1653747f8da9fe1"
+    }, {
+      "name" : "huymercy-776-playwright-worker-0",
+      "children" : [ {
+        "name" : "Add to cart",
+        "uid" : "b8b83e958fefea22",
+        "parentUid" : "07ff60ec115be42cbaa9e580a5dbbc8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684995466407,
+          "stop" : 1684995501539,
+          "duration" : 35132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test 02",
+        "uid" : "f0c6ad1a84669db2",
+        "parentUid" : "07ff60ec115be42cbaa9e580a5dbbc8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684995446438,
+          "stop" : 1684995466403,
+          "duration" : 19965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register test 01",
+        "uid" : "fc1847a1cba36342",
+        "parentUid" : "07ff60ec115be42cbaa9e580a5dbbc8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684995433548,
+          "stop" : 1684995446430,
+          "duration" : 12882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07ff60ec115be42cbaa9e580a5dbbc8f"
+    }, {
       "name" : "huymercy-2372-playwright-worker-0",
       "children" : [ {
-        "name" : "Check box",
-        "uid" : "ebe08bd0e3d7b95",
+        "name" : "Sum",
+        "uid" : "bf6b6a59f698e37f",
         "parentUid" : "d34454521e88943c8540a29aa67444f6",
         "status" : "passed",
         "time" : {
-          "start" : 1683706240939,
-          "stop" : 1683706242731,
-          "duration" : 1792
+          "start" : 1683706238890,
+          "stop" : 1683706240936,
+          "duration" : 2046
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test Interactions inputs",
-        "uid" : "cfa2995a1bd6a90e",
+        "uid" : "4d23caf331ad6120",
         "parentUid" : "d34454521e88943c8540a29aa67444f6",
         "status" : "passed",
         "time" : {
@@ -75,14 +264,14 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Sum",
-        "uid" : "511440600dbb4be5",
+        "name" : "Check box",
+        "uid" : "c74682d063306c07",
         "parentUid" : "d34454521e88943c8540a29aa67444f6",
         "status" : "passed",
         "time" : {
-          "start" : 1683706238890,
-          "stop" : 1683706240936,
-          "duration" : 2046
+          "start" : 1683706240939,
+          "stop" : 1683706242731,
+          "duration" : 1792
         },
         "flaky" : false,
         "newFailed" : false,
@@ -90,10 +279,70 @@
       } ],
       "uid" : "d34454521e88943c8540a29aa67444f6"
     }, {
+      "name" : "huymercy-5596-playwright-worker-0",
+      "children" : [ {
+        "name" : "Calendar moment",
+        "uid" : "4224c408e124a3e5",
+        "parentUid" : "735df8a4c296eed12aba996b3cc42d87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1681718233647,
+          "stop" : 1681718242017,
+          "duration" : 8370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "735df8a4c296eed12aba996b3cc42d87"
+    }, {
+      "name" : "huymercy-13408-playwright-worker-0",
+      "children" : [ {
+        "name" : "Login test 02",
+        "uid" : "7e371619dc270a5e",
+        "parentUid" : "3a3e9a2cfc2f91a9cd2e4d7d4a76424d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942231919,
+          "stop" : 1683942238093,
+          "duration" : 6174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register test 01",
+        "uid" : "3b552056ee5ffdb9",
+        "parentUid" : "3a3e9a2cfc2f91a9cd2e4d7d4a76424d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942222421,
+          "stop" : 1683942231914,
+          "duration" : 9493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to cart",
+        "uid" : "3b6d05c68067dd80",
+        "parentUid" : "3a3e9a2cfc2f91a9cd2e4d7d4a76424d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942238096,
+          "stop" : 1683942259115,
+          "duration" : 21019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a3e9a2cfc2f91a9cd2e4d7d4a76424d"
+    }, {
       "name" : "huymercy-3920-playwright-worker-0",
       "children" : [ {
         "name" : "Calendar moment",
-        "uid" : "4749a428619928b9",
+        "uid" : "813f77c7e7d54ce7",
         "parentUid" : "70f7d90bc5b1be04eeb7816fed5ce52c",
         "status" : "failed",
         "time" : {
@@ -107,65 +356,576 @@
       } ],
       "uid" : "70f7d90bc5b1be04eeb7816fed5ce52c"
     }, {
-      "name" : "huymercy-11780-playwright-worker-0",
+      "name" : "huymercy-9480-playwright-worker-0",
       "children" : [ {
-        "name" : "Sum",
-        "uid" : "4a20466664d63886",
-        "parentUid" : "4542cb05d6b52fb9fe40dcf30c8c126d",
-        "status" : "passed",
+        "name" : "data test",
+        "uid" : "49ad55546b0bd6d5",
+        "parentUid" : "04d3c2fe2832c0de629dcc5378539fc0",
+        "status" : "failed",
         "time" : {
-          "start" : 1683706392000,
-          "stop" : 1683706394180,
-          "duration" : 2180
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test Interactions inputs",
-        "uid" : "3daacc626754c987",
-        "parentUid" : "4542cb05d6b52fb9fe40dcf30c8c126d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1683706388249,
-          "stop" : 1683706391996,
-          "duration" : 3747
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check box",
-        "uid" : "2033c0098809f7f0",
-        "parentUid" : "4542cb05d6b52fb9fe40dcf30c8c126d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1683706394183,
-          "stop" : 1683706396141,
-          "duration" : 1958
+          "start" : 1684146106066,
+          "stop" : 1684146112771,
+          "duration" : 6705
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4542cb05d6b52fb9fe40dcf30c8c126d"
+      "uid" : "04d3c2fe2832c0de629dcc5378539fc0"
     }, {
-      "name" : "huymercy-5596-playwright-worker-0",
+      "name" : "huymercy-13436-playwright-worker-0",
       "children" : [ {
-        "name" : "Calendar moment",
-        "uid" : "675b43513a338ea1",
-        "parentUid" : "735df8a4c296eed12aba996b3cc42d87",
+        "name" : "Register test 01",
+        "uid" : "c9764505b005995d",
+        "parentUid" : "a1d9d8c887bc4811e9ef4ef3889b7144",
         "status" : "passed",
         "time" : {
-          "start" : 1681718233647,
-          "stop" : 1681718242017,
-          "duration" : 8370
+          "start" : 1683942376487,
+          "stop" : 1683942385405,
+          "duration" : 8918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to cart",
+        "uid" : "756f625189e00c09",
+        "parentUid" : "a1d9d8c887bc4811e9ef4ef3889b7144",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942391466,
+          "stop" : 1683942407705,
+          "duration" : 16239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test 02",
+        "uid" : "569e18f9732b3847",
+        "parentUid" : "a1d9d8c887bc4811e9ef4ef3889b7144",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942385410,
+          "stop" : 1683942391462,
+          "duration" : 6052
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "735df8a4c296eed12aba996b3cc42d87"
+      "uid" : "a1d9d8c887bc4811e9ef4ef3889b7144"
+    }, {
+      "name" : "huymercy-3428-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "57fc6c1416aa188a",
+        "parentUid" : "79b54e443ee60fcd1aa3adb1636d3282",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684143136964,
+          "stop" : 1684143145323,
+          "duration" : 8359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79b54e443ee60fcd1aa3adb1636d3282"
+    }, {
+      "name" : "huymercy-13220-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "1cabecced7eb3782",
+        "parentUid" : "2de27e933c46c833874c57f2d4522f96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684146263503,
+          "stop" : 1684146270342,
+          "duration" : 6839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2de27e933c46c833874c57f2d4522f96"
+    }, {
+      "name" : "huymercy-10184-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "cdadf644262744f9",
+        "parentUid" : "a0be3304fe4feceefe7077f25f2c2640",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684404890124,
+          "stop" : 1684404895570,
+          "duration" : 5446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0be3304fe4feceefe7077f25f2c2640"
+    }, {
+      "name" : "huymercy-1760-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "64fd2a731ed34fe3",
+        "parentUid" : "2693e58ea5f5db1a4fdd885a0d4ece67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684394796400,
+          "stop" : 1684394804279,
+          "duration" : 7879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2693e58ea5f5db1a4fdd885a0d4ece67"
+    }, {
+      "name" : "huymercy-8924-playwright-worker-0",
+      "children" : [ {
+        "name" : "Add to cart",
+        "uid" : "9a5b73b94a9f4c66",
+        "parentUid" : "36e06ae95ace3da99226e6465ecfb2af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942305176,
+          "stop" : 1683942316502,
+          "duration" : 11326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register test 01",
+        "uid" : "58cc45b21b24b9b0",
+        "parentUid" : "36e06ae95ace3da99226e6465ecfb2af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942290675,
+          "stop" : 1683942298494,
+          "duration" : 7819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test 02",
+        "uid" : "b34a3ed650c117dc",
+        "parentUid" : "36e06ae95ace3da99226e6465ecfb2af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683942298500,
+          "stop" : 1683942305173,
+          "duration" : 6673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36e06ae95ace3da99226e6465ecfb2af"
+    }, {
+      "name" : "huymercy-7288-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "21e431b86340064b",
+        "parentUid" : "ed770576bfea70256ea075798f48e6af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684404940901,
+          "stop" : 1684404950718,
+          "duration" : 9817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed770576bfea70256ea075798f48e6af"
+    }, {
+      "name" : "huymercy-11088-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "f2cf1d874c1583b2",
+        "parentUid" : "b133b460cf763d6585123bca121754f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684145532335,
+          "stop" : 1684145541159,
+          "duration" : 8824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b133b460cf763d6585123bca121754f8"
+    }, {
+      "name" : "huymercy-11140-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "77d95a198705a4da",
+        "parentUid" : "3bc16dba86722e640e4072709d477eaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684395089032,
+          "stop" : 1684395100517,
+          "duration" : 11485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bc16dba86722e640e4072709d477eaa"
+    }, {
+      "name" : "huymercy-1400-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "81127b16d24a05e7",
+        "parentUid" : "99076332899167bd6209346e946ac929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684394657905,
+          "stop" : 1684394666744,
+          "duration" : 8839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99076332899167bd6209346e946ac929"
+    }, {
+      "name" : "huymercy-1628-playwright-worker-0",
+      "children" : [ {
+        "name" : "Add to cart",
+        "uid" : "1815245674a94266",
+        "parentUid" : "abceed9f6d17196456bf2333e0385ec8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684836434280,
+          "stop" : 1684836444977,
+          "duration" : 10697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test 02",
+        "uid" : "e319fee5e3aefd94",
+        "parentUid" : "abceed9f6d17196456bf2333e0385ec8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684836428551,
+          "stop" : 1684836433335,
+          "duration" : 4784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register test 01",
+        "uid" : "e61498e7886b6782",
+        "parentUid" : "abceed9f6d17196456bf2333e0385ec8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684836410490,
+          "stop" : 1684836427580,
+          "duration" : 17090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abceed9f6d17196456bf2333e0385ec8"
+    }, {
+      "name" : "huymercy-864-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "2d413b5fae7c440e",
+        "parentUid" : "84bba955e147a38483ff42a123dffff3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684145489205,
+          "stop" : 1684145495273,
+          "duration" : 6068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84bba955e147a38483ff42a123dffff3"
+    }, {
+      "name" : "huymercy-6888-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "76fd8c347a95a000",
+        "parentUid" : "f091e63cc8a5a4a1d11a1296bc6fe8a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684404793260,
+          "stop" : 1684404826159,
+          "duration" : 32899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f091e63cc8a5a4a1d11a1296bc6fe8a8"
+    }, {
+      "name" : "huymercy-12800-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "cb48463700724b34",
+        "parentUid" : "6b5e52676f9f2eeb56a455bdde0fdafb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684394622419,
+          "stop" : 1684394624128,
+          "duration" : 1709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b5e52676f9f2eeb56a455bdde0fdafb"
+    }, {
+      "name" : "huymercy-5200-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "d5e7d279e6641e59",
+        "parentUid" : "abfaac2f27040983cb6e8acf6c8c0b51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684395311658,
+          "stop" : 1684395333028,
+          "duration" : 21370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abfaac2f27040983cb6e8acf6c8c0b51"
+    }, {
+      "name" : "huymercy-12764-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "fc46d7462903fbef",
+        "parentUid" : "d23ab617ace69164b8f1722a69d07bed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684404975689,
+          "stop" : 1684404983717,
+          "duration" : 8028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d23ab617ace69164b8f1722a69d07bed"
+    }, {
+      "name" : "huymercy-2980-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "893d5fa8f6d82503",
+        "parentUid" : "3e36dbd257e9dd2d53b76fae8c353ccc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684144930191,
+          "stop" : 1684144936790,
+          "duration" : 6599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e36dbd257e9dd2d53b76fae8c353ccc"
+    }, {
+      "name" : "huymercy-8792-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "389f6d5825a8d0b6",
+        "parentUid" : "d35bc4b7382363a7d2d5dc88e312f7d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684146052705,
+          "stop" : 1684146054844,
+          "duration" : 2139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d35bc4b7382363a7d2d5dc88e312f7d8"
+    }, {
+      "name" : "huymercy-14324-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "2ee9314a3b71e3dc",
+        "parentUid" : "a2b6c51ae902470c051004990c7217b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684146792172,
+          "stop" : 1684146799446,
+          "duration" : 7274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2b6c51ae902470c051004990c7217b7"
+    }, {
+      "name" : "huymercy-7380-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "8ddb31e21cecba30",
+        "parentUid" : "b7ea42a3e2617e4ace96c8f2e09a7a92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684398088103,
+          "stop" : 1684398101868,
+          "duration" : 13765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7ea42a3e2617e4ace96c8f2e09a7a92"
+    }, {
+      "name" : "huymercy-544-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "a42ad1060f2eeed7",
+        "parentUid" : "497ba3adf6aac6c43da2f0b92950d072",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684145421776,
+          "stop" : 1684145429504,
+          "duration" : 7728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "497ba3adf6aac6c43da2f0b92950d072"
+    }, {
+      "name" : "huymercy-5108-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "26d2243a81f9b81f",
+        "parentUid" : "66f94f3bfd1688efa6b283197d5f8444",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684394947693,
+          "stop" : 1684394956765,
+          "duration" : 9072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66f94f3bfd1688efa6b283197d5f8444"
+    }, {
+      "name" : "huymercy-6368-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "a3ac380e1e71b355",
+        "parentUid" : "4244036dfa636252090a8c0ef41738e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684145901972,
+          "stop" : 1684145909133,
+          "duration" : 7161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4244036dfa636252090a8c0ef41738e8"
+    }, {
+      "name" : "huymercy-8380-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "321e2fe2034777be",
+        "parentUid" : "69770d7612a9d8f936f4791f63ef3a69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684404714367,
+          "stop" : 1684404748075,
+          "duration" : 33708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69770d7612a9d8f936f4791f63ef3a69"
+    }, {
+      "name" : "huymercy-1144-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "1441acd430d70a28",
+        "parentUid" : "06232bfea23d527b34e2c0d43ee59212",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684144999556,
+          "stop" : 1684145007315,
+          "duration" : 7759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06232bfea23d527b34e2c0d43ee59212"
+    }, {
+      "name" : "huymercy-14816-playwright-worker-0",
+      "children" : [ {
+        "name" : "data test",
+        "uid" : "a6a38a030b4dcf9d",
+        "parentUid" : "5cc44f3503fa034774359aa6029991d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684392509753,
+          "stop" : 1684392517764,
+          "duration" : 8011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cc44f3503fa034774359aa6029991d2"
+    }, {
+      "name" : "huymercy-7100-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "ab200c19c6c30450",
+        "parentUid" : "a8e9323832e9a648f8775d62cd250f6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684145352690,
+          "stop" : 1684145359000,
+          "duration" : 6310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8e9323832e9a648f8775d62cd250f6a"
+    }, {
+      "name" : "huymercy-10928-playwright-worker-0",
+      "children" : [ {
+        "name" : "Register test 01",
+        "uid" : "2b904a90e373c214",
+        "parentUid" : "c9c67a75b02cef7983c5538439315b0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684404903818,
+          "stop" : 1684404912977,
+          "duration" : 9159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c67a75b02cef7983c5538439315b0c"
     } ],
     "uid" : "722aac01030b30deb8bd8357d09a82e5"
   } ]

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Test timeout of 30000ms exceeded.",
+      "children" : [ {
+        "name" : "Add to cart",
+        "uid" : "b8b83e958fefea22",
+        "parentUid" : "c40db157585b53b0bc1e162332a78fe1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684995466407,
+          "stop" : 1684995501539,
+          "duration" : 35132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c40db157585b53b0bc1e162332a78fe1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

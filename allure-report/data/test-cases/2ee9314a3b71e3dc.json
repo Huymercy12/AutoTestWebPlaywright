@@ -1,0 +1,167 @@
+{
+  "uid" : "2ee9314a3b71e3dc",
+  "name" : "data test",
+  "fullName" : "tests/data.test.ts#data test",
+  "historyId" : "9a5439b8dea876f64df7b8ba636f55b2",
+  "time" : {
+    "start" : 1684146792172,
+    "stop" : 1684146799446,
+    "duration" : 7274
+  },
+  "status" : "failed",
+  "statusMessage" : "locator.type: text: expected string, got undefined",
+  "statusTrace" : "\n    at runTests (C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\tests\\data.test.ts:20:40)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "locator.type: text: expected string, got undefined",
+    "statusTrace" : "\n    at runTests (C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\tests\\data.test.ts:20:40)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1684146792175,
+        "stop" : 1684146792203,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "browserContext.newPage",
+      "time" : {
+        "start" : 1684146794096,
+        "stop" : 1684146794664,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.goto(https://ecommerce-playground.lambdatest.io/index.php?route=account/register)",
+      "time" : {
+        "start" : 1684146794747,
+        "stop" : 1684146799191,
+        "duration" : 4444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-email, )",
+      "time" : {
+        "start" : 1684146799195,
+        "stop" : 1684146799197,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1684146799197,
+        "stop" : 1684146799438,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Screenshot on failure",
+        "time" : {
+          "start" : 1684146799198,
+          "stop" : 1684146799425,
+          "duration" : 227
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.screenshot",
+          "time" : {
+            "start" : 1684146799202,
+            "stop" : 1684146799418,
+            "duration" : 216
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "355e44b924f0105e",
+      "name" : "screenshot",
+      "source" : "355e44b924f0105e.png",
+      "type" : "image/png",
+      "size" : 102103
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "huymercy"
+  }, {
+    "name" : "thread",
+    "value" : "huymercy-14324-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ee9314a3b71e3dc.json",
+  "parameterValues" : [ ]
+}

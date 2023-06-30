@@ -1,0 +1,152 @@
+{
+  "uid" : "cdadf644262744f9",
+  "name" : "Register test 01",
+  "fullName" : "pomtest/addToCartUsingFixture.test.ts#Register test 01",
+  "historyId" : "1a2fa5ba53dcc250e5dccd12bf17a8f2",
+  "time" : {
+    "start" : 1684404890124,
+    "stop" : 1684404895570,
+    "duration" : 5446
+  },
+  "status" : "failed",
+  "statusMessage" : "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://ecommerce-playground.lambdatest.io/index.php?route=account/register\", waiting until \"load\"\n============================================================",
+  "statusTrace" : "\n    at C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\pomtest\\addToCartUsingFixture.test.ts:13:20",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://ecommerce-playground.lambdatest.io/index.php?route=account/register\", waiting until \"load\"\n============================================================",
+    "statusTrace" : "\n    at C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\pomtest\\addToCartUsingFixture.test.ts:13:20",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1684404890127,
+        "stop" : 1684404891751,
+        "duration" : 1624
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1684404891279,
+          "stop" : 1684404891751,
+          "duration" : 472
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://ecommerce-playground.lambdatest.io/index.php?route=account/register)",
+      "time" : {
+        "start" : 1684404891886,
+        "stop" : 1684404894632,
+        "duration" : 2746
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1684404894633,
+        "stop" : 1684404895565,
+        "duration" : 932
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Screenshot on failure",
+        "time" : {
+          "start" : 1684404894634,
+          "stop" : 1684404894635,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1684404894645,
+          "stop" : 1684404895307,
+          "duration" : 662
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d33d4a971cabf2d9",
+      "name" : "video",
+      "source" : "d33d4a971cabf2d9.webm",
+      "type" : "video/webm",
+      "size" : 6637
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "huymercy"
+  }, {
+    "name" : "thread",
+    "value" : "huymercy-10184-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdadf644262744f9.json",
+  "parameterValues" : [ ]
+}

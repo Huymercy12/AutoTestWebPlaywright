@@ -1,0 +1,323 @@
+{
+  "uid" : "fc1847a1cba36342",
+  "name" : "Register test 01",
+  "fullName" : "pomtest/addToCart.test.ts#page object model demo Register test 01",
+  "historyId" : "d6712dc4b8b43e23ab0139fc3df8a654",
+  "time" : {
+    "start" : 1684995433548,
+    "stop" : 1684995446430,
+    "duration" : 12882
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1684995433550,
+        "stop" : 1684995435517,
+        "duration" : 1967
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1684995434980,
+          "stop" : 1684995435517,
+          "duration" : 537
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://ecommerce-playground.lambdatest.io/index.php?route=account/register)",
+      "time" : {
+        "start" : 1684995435525,
+        "stop" : 1684995443764,
+        "duration" : 8239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-firstname, Huy1)",
+      "time" : {
+        "start" : 1684995443777,
+        "stop" : 1684995443909,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-lastname, Vu1)",
+      "time" : {
+        "start" : 1684995443912,
+        "stop" : 1684995443963,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-email, huy55551@gmail.com)",
+      "time" : {
+        "start" : 1684995443965,
+        "stop" : 1684995444097,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-telephone, 1234567890)",
+      "time" : {
+        "start" : 1684995444100,
+        "stop" : 1684995444186,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-password, 12345678)",
+      "time" : {
+        "start" : 1684995444189,
+        "stop" : 1684995444252,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#input-confirm, 12345678)",
+      "time" : {
+        "start" : 1684995444255,
+        "stop" : 1684995444320,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeChecked",
+      "time" : {
+        "start" : 1684995444326,
+        "stop" : 1684995444353,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "page.click(label[for='input-agree'])",
+        "time" : {
+          "start" : 1684995444339,
+          "stop" : 1684995444432,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1684995444440,
+        "stop" : 1684995445845,
+        "duration" : 1405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[value='Continue'])",
+      "time" : {
+        "start" : 1684995444447,
+        "stop" : 1684995444984,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1684995445846,
+        "stop" : 1684995446421,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1684995446111,
+          "stop" : 1684995446418,
+          "duration" : 307
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "subSuite",
+    "value" : "page object model demo"
+  }, {
+    "name" : "host",
+    "value" : "huymercy"
+  }, {
+    "name" : "thread",
+    "value" : "huymercy-776-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f5995ad602370d7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684986992489,
+        "stop" : 1684987003062,
+        "duration" : 10573
+      }
+    }, {
+      "uid" : "e61498e7886b6782",
+      "status" : "failed",
+      "statusDetails" : "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://ecommerce-playground.lambdatest.io/index.php?route=account/register\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1684836410490,
+        "stop" : 1684836427580,
+        "duration" : 17090
+      }
+    }, {
+      "uid" : "c9764505b005995d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683942376487,
+        "stop" : 1683942385405,
+        "duration" : 8918
+      }
+    }, {
+      "uid" : "58cc45b21b24b9b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683942290675,
+        "stop" : 1683942298494,
+        "duration" : 7819
+      }
+    }, {
+      "uid" : "3b552056ee5ffdb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683942222421,
+        "stop" : 1683942231914,
+        "duration" : 9493
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc1847a1cba36342.json",
+  "parameterValues" : [ ]
+}

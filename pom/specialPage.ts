@@ -5,7 +5,7 @@ export default class SpecialPage {
     async addItemToCart() {
         await this.page.click("//h3[contains(text(),'Filter')]");
         await this.page.click("//a[contains(text(),'Desktops (75)')]");
-        await this.page.hover("//div[@class='image']//a", { strict: false });
+        await this.page.hover("//div[@class='image']//a", { strict: true });
         await this.page.locator("//button[@title='Add to Cart']").nth(0).click()
     }
     async isToAskVisible() {

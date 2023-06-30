@@ -1,17 +1,18 @@
 
 import { test,expect } from "../base/pomFixture";
-import * as xlsx from 'xlsx';
+import * as exceljs from 'exceljs';
 // const email = "huy12121@gmail.com";
 // const password = "12345678";
 // test.describe("page object model demo", async () => {
     test("Register test 01", async ({ page, baseURL,registerPage }) => {
+        const workbook = new exceljs.Workbook();
+        await workbook.xlsx.readFile('dataFile/information.xlsx');
+        const worksheet = workbook.getWorksheet('user');
+        const rowCount = worksheet.rowCount;
+        for (let i = 2; i <= rowCount; i++) {
         await page.goto(`${baseURL}route=account/register`);
-        const workbook = xlsx.readFile('dataFile/information.xlsx');
-        const worksheet = workbook.Sheets[workbook.SheetNames['user']];
-        const data = xlsx.utils.sheet_to_json(worksheet);
-        for (const row in data) {
-        const email: string = row['Username'];
-        const password: string = row['Password'];
+        const email = worksheet.getCell(`A${i}`).text!.toString(); 
+        const password = worksheet.getCell(`B${i}`).value!.toString();
         await registerPage.enterFirstName("Huy");
         await registerPage.enterLastName("Vu");
         await registerPage.enterEmail(email);
@@ -20,7 +21,7 @@ import * as xlsx from 'xlsx';
         await registerPage.enterConfirmPassword(password);
         expect(registerPage.isSubscribeChecked()).toBeChecked();
         await registerPage.clickTermandConditions();
-        await registerPage.clickContinuetoRegister();
+        // await registerPage.clickContinuetoRegister();
         }})
 
 //     test("Login test 02", async ({ page, baseURL,loginPage }) => {
