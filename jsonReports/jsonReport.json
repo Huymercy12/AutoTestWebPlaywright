@@ -53,7 +53,7 @@
         "testDir": "C:/Users/thinkpad/Documents/Zalo Received Files/evotek/evotek/typescriptsPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "pomtest/addToCart.test.ts"
+          "tests/alert.test.ts"
         ],
         "timeout": 30000
       }
@@ -66,119 +66,107 @@
   },
   "suites": [
     {
-      "title": "pomtest\\addToCart.test.ts",
-      "file": "pomtest/addToCart.test.ts",
+      "title": "tests\\alert.test.ts",
+      "file": "tests/alert.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "page object model demo",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 8,
-          "column": 6,
-          "specs": [
+          "title": "handling alert",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Register test 01",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4406,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 7573,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-06-12T02:57:28.515Z",
-                      "attachments": []
+                      "text": "Enter name\n"
                     }
                   ],
-                  "status": "expected"
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-07-12T09:38:20.526Z",
+                  "attachments": []
                 }
               ],
-              "id": "1c188a18f2ecab048a02-bda8946a0e7b9562e4c4",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 9,
-              "column": 9
-            },
-            {
-              "title": "Login test 02",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 5948,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "My Account\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-06-12T02:57:38.823Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1c188a18f2ecab048a02-423cd84988fead5abc45",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 22,
-              "column": 9
-            },
-            {
-              "title": "Add to cart",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 12659,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-06-12T02:57:44.786Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1c188a18f2ecab048a02-cd4ff43941f2d6b4cdbe",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 32,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "a580f849d5424efee28a-4f2a4bb14fd63ace55ef",
+          "file": "tests/alert.test.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Bootstrap Modals",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 29999,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\tests\\alert.test.ts",
+                        "column": 16,
+                        "line": 18
+                      },
+                      "message": "Error: page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://www.lambdatest.com/selenium-playground/bootstrap-modal-demo\", waiting until \"load\"\n============================================================\n\n\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m test(\u001b[32m\"Bootstrap Modals\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.lambdatest.com/selenium-playground/bootstrap-modal-demo\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"(//button[text()='Launch Modal'])[1]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\tests\\alert.test.ts:18:16\u001b[22m"
+                    },
+                    {
+                      "message": "Pending operations:\n  - page.goto at tests\\alert.test.ts:18:16\n"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-07-12T09:38:27.116Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\test-results\\tests-alert-Bootstrap-Modals\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thinkpad\\Documents\\Zalo Received Files\\evotek\\evotek\\typescriptsPlaywright\\test-results\\tests-alert-Bootstrap-Modals\\test-failed-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a580f849d5424efee28a-b4f463b5b05a8d088c8a",
+          "file": "tests/alert.test.ts",
+          "line": 17,
+          "column": 5
         }
       ]
     }
